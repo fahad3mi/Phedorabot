@@ -66,7 +66,12 @@ li {
 }
 
 .service-tags {
-    color: rgb(151, 159, 223)
+    color: rgb(151, 159, 223);
+}
+
+.service-tags-dash {
+    color: rgb(151, 159, 223);
+    padding:42px 2px 0 2px;
 }
 
 #services p {
@@ -429,8 +434,25 @@ fieldset[disabled] .btn-xl.active {
 /***** Menu Ends******/
 
 
-
 /***** Main Body Starts ******/
+
+#dash-body {
+    background-color: #ece9e9;
+}
+
+.dash-service {
+    background-color:#fff; 
+    border-radius:4px; 
+    -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .5);
+}
+
+.service-info {
+    font-weight: 300;
+    color: #fff; 
+    padding: 22px;
+}
+
 
 /****Dashboard Main End****/
 /**************************/
@@ -574,15 +596,19 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
-    color: #bbb
+    color: rgb(168, 166, 166)
 
 }
 
-/** Fix Top Margins (Services)**/
+/** Fix Bottom Margins for Services**/
 .col-md-4 {
-    margin-top: 5em;
+    margin-bottom: 6em;
 }
-
+@media (min-width:768px) {
+    .col-md-4 {
+        margin-bottom: 4em;
+    }
+}
 /*** Fix support contact section***/
 .col-md-6 {
     padding: 20px;
