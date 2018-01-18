@@ -192,6 +192,34 @@ fieldset[disabled] .btn-primary.active {
     border-color: #7e7e7e;
 }
 
+/**** Dashboard Services Button ****/
+
+.btn-xl-dash {
+    color: #fefefe;
+    background-color: transparent;
+    border-color: #fefefe;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 8px 14px;
+    margin: 15px ;
+}
+
+.btn-xl-dash:hover,
+.btn-xl-dash:focus,
+.btn-xl-dash:active,
+.btn-xl-dash.active,
+.open .dropdown-toggle.btn-xl-dash {
+    color: #7e7e7e;
+    background-color: transparent;
+    border-color: #7e7e7e;
+}
+
+/**** Dashboard Services Button End Here ****/
+
+
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
@@ -333,7 +361,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #1a1a1a;
     border-color: transparent;
     height: 16px;
-    padding: 7px 0;
+    padding: 5px 0;
 }
 
 .navbar-dash .navbar-dash-brand {
@@ -355,7 +383,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-dash .navbar-collapse {
-    border-color: rgba(255, 255, 255, .02)
+    border-color: rgba(255, 255, 255, .02);
 }
 
 .navbar-dash .navbar-toggle {
@@ -388,7 +416,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-dash .navbar-nav {
-    background-color: #1a1a1a;    
+    background-color: #1a1a1a;
 }
 
 .navbar-dash .navbar-nav>.active>a {
@@ -407,7 +435,7 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width:768px) {
     .navbar-dash {
         background-color: #1a1a1a;
-        padding: 4px 0;
+        padding: 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -420,7 +448,7 @@ fieldset[disabled] .btn-xl.active {
         transition: all .3s
     }
     .navbar-dash .navbar-nav>.active>a {
-        border-radius: 3px
+        border-radius: 3px;
     }
     .navbar-dash.navbar-shrink {
         background-color: #fff;
@@ -449,6 +477,8 @@ fieldset[disabled] .btn-xl.active {
 
 .service-info {
     font-weight: 300;
+    letter-spacing: 0.2pt;
+    word-spacing: 1px;
     color: #fff; 
     padding: 22px;
 }
@@ -606,7 +636,7 @@ section h3.section-subheading {
 }
 @media (min-width:768px) {
     .col-md-4 {
-        margin-bottom: 4em;
+        margin-bottom: 8em;
     }
 }
 /*** Fix support contact section***/

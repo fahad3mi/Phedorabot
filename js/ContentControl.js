@@ -26,4 +26,4 @@ $(".tsms").append("&nbsp <strong>Transactional SMS Job Scheduler</strong> to sen
 $(".recurrent").append("&nbsp <strong>Recurrent Job Scheduler</strong> to schedule jobs that recurrently execute and be automatically re-scheduled. We provide an API to execute such recurrent jobs as required. (...coming soon)");
 $(".cron").append("&nbsp <strong>Cron Job Scheduler</strong> that can be used for jobs intended to run periodically at fixed times, dates or intervals. (...coming soon)");
 $(".one-time").append("&nbsp <strong>One-Time Job Scheduler</strong> that can be used to schedule jobs intended to run only once. (...coming soon)");
-$(".bitcoin").append("&nbsp <strong>Bitcoin Transaction Confirmation</strong> service can be used to comfirms all your Bitcoin transctions in real-time. (...coming soon)");
+$(".bitcoin").append("&nbsp <strong>Bitcoin Transaction Confirmation</strong> service can be used to confirm all your Bitcoin transctions in real-time. (...coming soon)");
