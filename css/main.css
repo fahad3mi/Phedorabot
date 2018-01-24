@@ -361,7 +361,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #1a1a1a;
     border-color: transparent;
     height: 16px;
-    padding: 5px 0;
+    padding: 3px 0;
 }
 
 .navbar-dash .navbar-dash-brand {
@@ -449,8 +449,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-nav-dash {                        
-        border: 3px solid yellow        /*** Fix Awkward Nav Bottom ***/
-
+        padding: 0;       /*** Fix Awkward Nav Drop ***/
     }
     .navbar-dash .navbar-nav-dash>.active>a {
         border-radius: 3px;
