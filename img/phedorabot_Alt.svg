@@ -39,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="495.96387"
-     inkscape:cy="261.14018"
+     inkscape:zoom="11.2"
+     inkscape:cx="39.177557"
+     inkscape:cy="31.177683"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -58,7 +58,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -163,7 +163,7 @@
            id="stop890-6" />
       </linearGradient>
       <polygon
-         style="opacity:0.36800005;fill:#f9f9f9;stroke:#6e6b6b;stroke-width:0.64051831;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:0.75;fill:#f9f9f9;stroke:#6e6b6b;stroke-width:0.64051831;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="polygon835-2-2"
          points="112.273,193.559 118.457,208.711 133.833,208.711 131.806,214.178 120.007,214.178 126.187,229.324 126.183,229.336 140.984,229.336 149.49,206.414 149.49,206.412 159.71,172.418 147.3,172.418 147.281,172.465 103.685,172.465 103.615,172.645 109.724,187.617 141.66,187.617 139.455,193.559 "
          transform="translate(-12.286609,0.74455118)" />
