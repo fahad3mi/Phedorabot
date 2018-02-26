@@ -1,14 +1,19 @@
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f3f3f3
     
 }
 
 .text-muted {
-    color: #222;
+    color: rgb(153, 150, 150);
     text-align: justify;
-    font-weight: 200;
+    font-weight: 400;
     font-family: sans-serif;
+}
+
+.text-muted strong {
+    color: rgb(58, 57, 57);
 }
 
 .text-primary {
@@ -84,6 +89,24 @@ li {
 
 #services p em {
     font-size: 12px;
+}
+
+.service-list-index {
+    background-color:#fff; 
+    border-radius:5px; 
+    padding: 5px 9px; 
+    margin-bottom: 14px;
+    border:0; 
+    box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2) 
+}
+
+.service-list-index p {
+    padding-top: 22px
+}
+
+.service-list-index hr {
+    border-color:#d4d4d4;
+    margin: 15px;
 }
 
 .img-centered {
@@ -224,6 +247,38 @@ fieldset[disabled] .btn-xl.active {
     color: #333333;
     background-color: #fff
 }
+
+
+/**** Service list button styling  Begin ****/
+
+.btn-service-list {
+    color: #a19f9f;
+    background-color: transparent;
+    border-color: #a19f9f;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 8px 14px;
+    margin: 15px ;
+}
+
+.btn-service-list:hover,
+.btn-service-list:focus,
+.btn-service-list:active,
+.btn-service-list.active,
+.open .dropdown-toggle.btn-service-list {
+    color: #7e7e7e;
+    background-color: transparent;
+    border-color: #7e7e7e;
+}
+
+
+/**** Service list button styling End ****/
+
+
+
 
 .navbar-default {
     background-color: #fff;
@@ -600,9 +655,19 @@ section div {
     padding-bottom: -7px
 }
 
-section#about {
-    background-color: #fdebc7;
+section#docs {
+    background-color: #fff;
 }
+
+
+#docs-code-image {
+    border:1px solid yellow;
+}
+
+#docs-code-image img {
+}
+
+
 section h2.section-heading {
     font-size: 18px;
     margin-top: 0;
@@ -774,10 +839,12 @@ div.form-container {
 }
 
 .est-aside {
-    background-color: #f3f3f3;
+    background-color: #fff;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 4em 2em;
-    border-radius: 7px;
+    border-radius: 5px;
+    border:0; 
+    box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2) 
 }
 
 .est-aside-result {
