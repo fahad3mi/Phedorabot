@@ -105,10 +105,14 @@ li {
 }
 
 .service-list-index hr {
-    border-color:#d4d4d4;
+    /*border-color:#d4d4d4;*/
     margin: 15px;
 }
 
+#privacy hr {
+    border-color:#d4d4d4;
+    margin: 2em 8em ;
+} 
 .img-centered {
     margin: 0 auto
 }
@@ -659,14 +663,11 @@ section#docs {
     background-color: #fff;
 }
 
-
-#docs-code-image {
-    border:1px solid yellow;
+#docs-code-image img{
+    border:0; 
+    box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+    margin-top: -17px
 }
-
-#docs-code-image img {
-}
-
 
 section h2.section-heading {
     font-size: 18px;
