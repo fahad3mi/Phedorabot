@@ -1,8 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #f3f3f3
-    
+    background-color: #f3f3f3;   
 }
 
 .text-muted {
@@ -10,10 +9,12 @@ body {
     text-align: justify;
     font-weight: 400;
     font-family: sans-serif;
+    font-size: 13px
 }
 
 .text-muted strong {
     color: rgb(58, 57, 57);
+    font-size: 13px
 }
 
 .text-primary {
@@ -90,6 +91,8 @@ li {
     font-size: 12px;
 }
 
+
+
 .service-list-index {
     background-color:#fff; 
     border-radius:5px; 
@@ -100,12 +103,21 @@ li {
 }
 
 .service-list-index p {
-    padding-top: 22px
+    padding-top: 22px;
+    font-size: 13px
+}
+
+.service-list-index strong {
+    font-size: 13px
 }
 
 .service-list-index hr {
     /*border-color:#d4d4d4;*/
     margin: 15px;
+}
+
+.service-list-index br {
+    margin-bottom: 12px
 }
 
 #privacy hr {
@@ -532,9 +544,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .service-info {
-    font-weight: 300;
-    letter-spacing: 0.2pt;
-    word-spacing: 1px;
+    font-weight: 400;
+    font-size: 13px;
     color: #fff; 
     padding: 22px;
 }
@@ -725,12 +736,12 @@ section#contact .section-heading {
 }
 
 section#contact .form-group {
-    margin-bottom: 25px
+    margin-bottom: 0
 }
 
 section#contact .form-group input,
 section#contact .form-group textarea {
-    padding: 20px
+    padding: 10px
 }
 
 section#contact .form-group input.form-control {
@@ -742,7 +753,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #d4d4d4;
     box-shadow: none
 }
 

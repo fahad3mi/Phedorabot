@@ -94,41 +94,51 @@
             <div class="row">
                 <div class="col-md-7">
                     <div class="service-list-index">                     
-                       <p class="tsms text-muted"><i class="fa fa-envelope fa-2x service-tags"></i><br></p>
+                       <p class="tsms text-muted"><i class="fa fa-envelope-o fa-2x service-tags"></i><br></p>
                        <hr>
-                       <a href=""><button class="btn btn-service-list">Enable Service</button></a> 
+                       <a href=""><button class="btn btn-service-list">Setup / Enable Service</button></a> 
                     </div>
                     <div class="service-list-index">                     
                        <p class="recurrent text-muted"><i class="fa fa-refresh fa-2x service-tags"></i><br></p>
                        <hr>
-                       <a href=""><button class="btn btn-service-list">Enable Service</button></a> 
+                       <a href=""><button class="btn btn-service-list">Setup / Enable Service</button></a> 
                     </div>
                     <div class="service-list-index">                     
                        <p class="cron text-muted"><i class="fa fa-tasks fa-2x service-tags"></i><br></p>
                        <hr>
-                       <a href=""><button class="btn btn-service-list">Enable Service</button></a> 
+                       <a href=""><button class="btn btn-service-list">Setup / Enable Service</button></a> 
                     </div>
                     <div class="service-list-index">                     
                        <p class="one-time text-muted"><i class="fa fa-circle-o-notch fa-2x service-tags"></i><br></p>
                        <hr>
-                       <a href=""><button class="btn btn-service-list">Enable Service</button></a> 
+                       <a href=""><button class="btn btn-service-list">Setup / Enable Service</button></a> 
                     </div>
                     <div class="service-list-index">                     
                        <p class="bitcoin text-muted"><i class="fa fa-bitcoin fa-2x service-tags"></i><br></p>
                        <hr>
-                       <a href=""><button class="btn btn-service-list">Enable Service</button></a> 
+                       <a href=""><button class="btn btn-service-list">Setup / Enable Service</button></a> 
                     </div>       
                 </div>
 
                 <div class="col-md-5 text-center">
                     <!-- *Place Holder for Price Estimate* -->
                     <aside class="est-aside">
-                    
-                    <label class="">Get Price Estimate</label>
+                   
+                    <label class="" style="margin-bottom:17px">Get Price Estimate</label>
+                    <div id="estimate" style="width: 260px; padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;">
+                    <ul class="nav nav-pills" style="">
+                        <li role="presentation" class="active"><a href="#"><i class="fa fa-envelope-o service-tags"></i></a></li>
+                        <li role="presentation"><a href=" "><i class="fa fa-refresh service-tags"></i></a></li>
+                        <li role="presentation"><a href=" "><i class="fa fa-tasks service-tags"></i></a></li>
+                        <li role="presentation"><a href=" "><i class="fa fa-circle-o-notch service-tags"></i></a></li>
+                        <li role="presentation"><a href=" "><i class="fa fa-bitcoin service-tags"></i></a></li>
+                    </ul>
+                    </div><!---/.estimate-->
+                    <br>
                     <form class="form-inline">
                         <div class="form-group">
                             <label class="sr-only" for="">Transactional SMS Price Estimate</label>
-                            <input type="" class="form-control text-center" placeholder="Enter Task Quantity" style="background-color: #f3f3f3">
+                            <input type="" class="form-control text-center" placeholder="Enter Task Quantity" style="background-color: #f3f3f3;font-size:11px">
                         </div>
                         <!--button type="submit" class="btn btn-primary ">Get Estimate</button-->           
                     </form>
@@ -136,7 +146,8 @@
                     <div class="est-aside-result">
                         <h2>₦ 5000</h2>
                         <h4><em>@</em> ₦ 1.89 <em>per</em> SMS</h4>
-                    </div>
+                    </div> 
+                    
                     </aside>
 
                 </div>
@@ -200,7 +211,15 @@
                         </p>
                 </div>
                 <div class="col-md-6">
-                        <aside class=""</aside>
+                        <h2 class="section-heading">Need a Quote sent to your email?</h2>
+                        <form class="form-horizontal">
+                                <div class="form-group col-xs-7">
+                                    <label class="sr-only" for=""></label>
+                                    <input type="email" class="form-control text-center" placeholder="you@example.com" style="background-color: #f3f3f3;font-size:11px">
+                                </div>
+                                <button type="submit" class="btn btn-primary " style="padding:10px;font-size:11px">Request Quote <i class="fa fa-paper-plane"></i></button>
+                                           
+                        </form>
                 </div>
             </div>
         </div>
