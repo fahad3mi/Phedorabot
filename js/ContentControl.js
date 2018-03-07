@@ -27,3 +27,19 @@ $(".recurrent").append("<strong>Recurrent Job Scheduler</strong><br> Schedule jo
 $(".cron").append("<strong>Cron Job Scheduler</strong><br> Schedule jobs intended to run periodically at fixed times, dates or intervals. We have a service API available to get you up and running.");
 $(".one-time").append("<strong>One-Time Job Scheduler</strong><br> Schedule jobs intended to run only once. Simply setup and enable using our service API.");
 $(".bitcoin").append("<strong>Bitcoin Transaction Confirmation</strong><br> Setup and enbale real-time confirmation of all your Bitcoin transctions. It's that easy!");
+
+
+ //------------------------------------//
+  //Wow Animation//
+  //------------------------------------// 
+  wow = new WOW(
+    {
+      boxClass:     'wow',      // animated element css class (default is wow)
+      animateClass: 'animated', // animation css class (default is animated)
+      offset:       0,          // distance to the element when triggering the animation (default is 0)
+      mobile:       false        // trigger animations on mobile devices (true is default)
+    }
+  );
+  wow.init();
+
+});
