@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A Technology Solution Provider - PNET ">
-    <meta name="author" content="">
+    <meta name="description" content="API as a Service - Phedorabot ">
+    <meta name="author" content="Phedorabot - API as a Service">
     <link rel="shortcut icon" href="img/favicon.png">
 
-    <title>Phedorabot</title>
+    <title>Phedorabot - API as a Service</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,6 +32,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="js/modernizr-2.7.1.js"></script>
 
 </head>
 
@@ -79,8 +80,11 @@
     <header>
         <div class="container">
             <div class="intro-text">
+                <!--div class="intro-lead-in animated fadeInDown"></div>
+                <div class="intro-heading animated fadeInDown"><!--Heading Content></div-->
+
                 <div class="intro-lead-in animated fadeInDown"></div>
-                <div class="intro-heading animated fadeInDown"><!--Heading Content--></div>
+                <div class="intro-heading animated wow fadeInDown" data-wow-delay="0.5s"><!--Heading Content--></div>
 
                 <a href="#"><button class="btn btn-xl-alt">Sign In</button></a>
                 <a href="#"><button class="btn btn-xl">Sign Up</button></a>
@@ -126,7 +130,7 @@
                    
                     <label class="" style="margin-bottom:17px">Get Price Estimate</label>
                     <div id="estimate" style="width: 260px; padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;">
-                    <ul class="nav nav-pills" style="">
+                    <ul class="nav nav-pills">
                         <li role="presentation" class="active"><a href="#"><i class="fa fa-envelope-o service-tags"></i></a></li>
                         <li role="presentation"><a href=" "><i class="fa fa-refresh service-tags"></i></a></li>
                         <li role="presentation"><a href=" "><i class="fa fa-tasks service-tags"></i></a></li>
@@ -264,7 +268,7 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/wow.min.js"></script>
 
     <!-- CC JavaScript -->
     <script src="js/ContentControl.js"></script>
