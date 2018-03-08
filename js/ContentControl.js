@@ -42,4 +42,3 @@ $(".bitcoin").append("<strong>Bitcoin Transaction Confirmation</strong><br> Setu
   );
   wow.init();
 
-});
