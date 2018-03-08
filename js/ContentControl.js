@@ -32,7 +32,7 @@ $(".bitcoin").append("<strong>Bitcoin Transaction Confirmation</strong><br> Setu
  //------------------------------------//
   //Wow Animation//
   //------------------------------------// 
-  wow = new WOW(
+ /** wow = new WOW(
     {
       boxClass:     'wow',      // animated element css class (default is wow)
       animateClass: 'animated', // animation css class (default is animated)
@@ -40,5 +40,5 @@ $(".bitcoin").append("<strong>Bitcoin Transaction Confirmation</strong><br> Setu
       mobile:       false        // trigger animations on mobile devices (true is default)
     }
   );
-  wow.init();
+  wow.init();**/
 
