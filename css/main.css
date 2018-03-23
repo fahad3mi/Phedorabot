@@ -569,7 +569,13 @@ header {
     background-size: cover;
     -o-background-size: cover;
     text-align: center;
-    height: 520px;
+    height: 390px;
+}
+
+@media (min-width:768px) {
+    header {
+        height: 502px;
+    }
 }
 
 header .intro-text {
