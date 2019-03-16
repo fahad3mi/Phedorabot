@@ -19,13 +19,15 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+
+/* Activates the Carousel
+$('.carousel').carousel({
+    interval: 5000
+  })*/
+
 var introHeadings =["Automate Tasks for your Digital Solutions",
                     "Schedule Transactional Triggers",
                     "Provide reliable Customer Support Channels"];
-
-                    introHeadings.forEach(function(item, index, array){
-                        console.log(item, index);
-                    });
 
 //Appends content on front-page
 $(".intro-lead-in").append("<h1>API AS A SERVICE</h1>");
@@ -36,8 +38,7 @@ $(".cron").append("<strong>Cron Job Scheduler</strong><br> Schedule jobs intende
 $(".one-time").append("<strong>One-Time Job Scheduler</strong><br> Schedule jobs intended to run only once. Simply setup and enable using our service API.");
 $(".bitcoin").append("<strong>Bitcoin Transaction Confirmation</strong><br> Setup and enbale real-time confirmation of all your Bitcoin transctions. It's that easy!");
 
-var changeIntro = function() {
-    $(".into-heading").append(introHeadings[1]);
-};
+$(document).ready(function() {
+    $(".intro-heading").fadeIn();
+})
 
-changeIntro();
